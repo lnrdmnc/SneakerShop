@@ -1,0 +1,130 @@
+[
+    {
+      "id": 0,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 1,
+      "name": "Air Jordan 1",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2021",
+      "size":"42"
+    },
+     {
+      "id": 2,
+      "name": "Air Jordan 1 Travis Scott",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"20/12/2021",
+      "size":"44"
+    },
+     {
+      "id": 3,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"41"
+    },
+     {
+      "id": 4,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"44"
+    },
+    {
+      "id": 5,
+      "name": "Air Jordan 6 Blue",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"42"
+    },
+     {
+      "id": 6,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 7,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 8,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 9,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 10,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 11,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 12,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 13,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+    {
+      "id": 14,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    },
+     {
+      "id": 15,
+      "name": "Air Jordan 6 Retro Carmine",
+      "brand":"NIKE",
+      "picture": "images/scottish-terrier.jpeg",
+      "release":"30/10/2020",
+      "size":"40"
+    }
+  ]

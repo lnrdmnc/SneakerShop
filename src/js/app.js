@@ -3,18 +3,19 @@ App = {
     contracts: {},
 
     init: async function () {
-        // Load pets.
-        $.getJSON('../pets.json', function (data) {
-            var snkrsRow = $('#petsRow');
-            var snkrsTemplate = $('#petTemplate');
+        // Load Sneakers.
+        $.getJSON('../Sneakers.json', function (data) {
+            var snkrsRow = $('#snkrsRow');
+            var snkrsTemplate = $('#snkrsTemplate');
 
             for (i = 0; i < data.length; i++) {
                 snkrsTemplate.find('.panel-title').text(data[i].name);
                 snkrsTemplate.find('img').attr('src', data[i].picture);
                 snkrsTemplate.find('.snkrs-brand').text(data[i].brand);
-                snkrsTemplate.find('.pet-size').text(data[i].size);
-                snkrsTemplate.find('.snkrs-realese').text(data[i].release);
+                snkrsTemplate.find('.snkrs-release').text(data[i].release);
+                snkrsTemplate.find('.snkrs-size').text(data[i].size);
                 snkrsTemplate.find('.btn-buy snkrs-buy').attr('data-id', data[i].id);
+                console.log(data[i].id)
                 snkrsRow.append(snkrsTemplate.html());
             }
         });
@@ -51,7 +52,7 @@ App = {
     },
 
     initContract: function () {
-        $.getJSON('Adoption.json', function (data) {
+        $.getJSON('Cop.json', function (data) {
             // Get the necessary contract artifact file and instantiate it with @truffle/contract
             var BuyArtifact = data;
             App.contracts.Cop = TruffleContract(BuyArtifact);
@@ -59,8 +60,8 @@ App = {
             // Set the provider for our contract
             App.contracts.Cop.setProvider(App.web3Provider);
 
-            // Use our contract to retrieve and mark the adopted pets
-            return App.markAdopted();
+            // Use our contract to retrieve sneakers and mark cop 
+            return App.markCop();
         });
 
 
@@ -69,7 +70,7 @@ App = {
     },
 
     bindEvents: function () {
-        $(document).on('click', '.btn-buy snkrs-buy', App.handleAdopt);
+        $(document).on('click', '.btn-buy snkrs-buy', App.handleCop);
     },
 
     markCop: function () {
@@ -92,10 +93,10 @@ App = {
 
     },
 
-    handleAdopt: function (event) {
+    handleCop: function (event) {
         event.preventDefault();
 
-        var sneakersId = parseInt($(event.target).data('id'));
+        var snkrsId = parseInt($(event.target).data('id'));
         var buyInstance;
 
         web3.eth.getAccounts(function (error, accounts) {
@@ -109,7 +110,7 @@ App = {
                 buyInstance = instance;
 
                 // Execute adopt as a transaction by sending account
-                return buyInstance.adopt(snkrsId, { from: account });
+                return buyInstance.cop(snkrsId, { from: account });
             }).then(function (result) {
                 return App.markCop();
             }).catch(function (err) {
