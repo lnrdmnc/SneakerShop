@@ -14,8 +14,7 @@ App = {
                 snkrsTemplate.find('.snkrs-brand').text(data[i].brand);
                 snkrsTemplate.find('.snkrs-release').text(data[i].release);
                 snkrsTemplate.find('.snkrs-size').text(data[i].size);
-                snkrsTemplate.find('.btn-buy snkrs-buy').attr('data-id', data[i].id);
-                console.log(data[i].id)
+                snkrsTemplate.find('.btn-buy').attr('data-id', data[i].id);
                 snkrsRow.append(snkrsTemplate.html());
             }
         });
@@ -70,19 +69,21 @@ App = {
     },
 
     bindEvents: function () {
-        $(document).on('click', '.btn-buy snkrs-buy', App.handleCop);
+        $(document).on('click', '.btn-buy', App.handleCop);
     },
 
     markCop: function () {
-        var buyInstance;
+        var copInstance;
 
         App.contracts.Cop.deployed().then(function (instance) {
-            buyInstance = instance;
+            copInstance = instance;
 
-            return buyInstance.getSneakers.call();
+            return copInstance.getSneakers.call();
         }).then(function (sneakers) {
             for (i = 0; i < sneakers.length; i++) {
-                if (sneakers[i] !== '0x0000000000000000000000000000000000000000') {
+                console.log("ciaoooo")
+                console.log(sneakers[i]);
+                if (sneakers[i] != '0x0000000000000000000000000000000000000000') {
                     $('.panel-snkrs').eq(i).find('button').text('Success').attr('disabled', true);
                 }
             }
@@ -97,20 +98,18 @@ App = {
         event.preventDefault();
 
         var snkrsId = parseInt($(event.target).data('id'));
-        var buyInstance;
-
+        var copInstance;
+        console.log(snkrsId);
         web3.eth.getAccounts(function (error, accounts) {
             if (error) {
                 console.log(error);
             }
-
             var account = accounts[0];
-
             App.contracts.Cop.deployed().then(function (instance) {
-                buyInstance = instance;
-
-                // Execute adopt as a transaction by sending account
-                return buyInstance.cop(snkrsId, { from: account });
+                copInstance = instance;
+                console.log("QUI")
+                // Execute COP as a transaction by sending account
+                return copInstance.cop(snkrsId, { from: account });
             }).then(function (result) {
                 return App.markCop();
             }).catch(function (err) {

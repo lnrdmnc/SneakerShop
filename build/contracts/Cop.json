@@ -59,12 +59,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"snkrsId\",\"type\":\"uint256\"}],\"name\":\"cop\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSneakers\",\"outputs\":[{\"internalType\":\"address[16]\",\"name\":\"\",\"type\":\"address[16]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"sneakers\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Cop.sol\":\"Cop\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Cop.sol\":{\"keccak256\":\"0x6f0e54d641ecd0fd0539b0230ac88d3da1fde7dd336daadc963071da09006089\",\"urls\":[\"bzz-raw://8cdd6a1531ae6683c00ecc537c2da972b6c289c234ed73421c599b56a3628746\",\"dweb:/ipfs/QmbSEQg7T6HsLwVPJ6rHTv6VGUXKd6Pb9gVFZyMjvTWruH\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506102b9806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063898c0d46146100465780638fa6782a14610088578063bd2e065c146100ce575b600080fd5b6100726004803603602081101561005c57600080fd5b810190808035906020019092919050505061013c565b6040518082815260200191505060405180910390f35b6100906101ad565b6040518082601060200280838360005b838110156100bb5780820151818401526020810190506100a0565b5050505090500191505060405180910390f35b6100fa600480360360208110156100e457600080fd5b810190808035906020019092919050505061022e565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600080821015801561014f5750600f8211155b61015857600080fd5b336000836010811061016657fe5b0160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550819050919050565b6101b5610261565b6000601080602002604051908101604052809291908260108015610224576020028201915b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190600101908083116101da575b5050505050905090565b6000816010811061023b57fe5b016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60405180610200016040528060109060208202803883398082019150509050509056fea265627a7a7231582061cf30bec04d4aab3071a00e1ab214e47daab23ed82f67e67a519f79550a671964736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063898c0d46146100465780638fa6782a14610088578063bd2e065c146100ce575b600080fd5b6100726004803603602081101561005c57600080fd5b810190808035906020019092919050505061013c565b6040518082815260200191505060405180910390f35b6100906101ad565b6040518082601060200280838360005b838110156100bb5780820151818401526020810190506100a0565b5050505090500191505060405180910390f35b6100fa600480360360208110156100e457600080fd5b810190808035906020019092919050505061022e565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600080821015801561014f5750600f8211155b61015857600080fd5b336000836010811061016657fe5b0160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550819050919050565b6101b5610261565b6000601080602002604051908101604052809291908260108015610224576020028201915b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190600101908083116101da575b5050505050905090565b6000816010811061023b57fe5b016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60405180610200016040528060109060208202803883398082019150509050509056fea265627a7a7231582061cf30bec04d4aab3071a00e1ab214e47daab23ed82f67e67a519f79550a671964736f6c63430005100032",
-  "sourceMap": "25:333:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:333:0;;;;;;;",
-  "deployedSourceMap": "25:333:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:333:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;88:148;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;88:148:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;268:86;;;:::i;:::-;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;268:86:0;;;;;;;;;;;;;;;;41:27;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;41:27:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;88:148;131:4;160:1;149:7;:12;;:29;;;;;176:2;165:7;:13;;149:29;141:38;;;;;;204:10;184:8;193:7;184:17;;;;;;;;;:30;;;;;;;;;;;;;;;;;;226:7;219:14;;88:148;;;:::o;268:86::-;312:18;;:::i;:::-;343:8;336:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;268:86;:::o;41:27::-;;;;;;;;;;;;;;;;;;;;;;;:::o;25:333::-;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;25:333:0;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract Cop {\n\naddress[16] public sneakers;\n// cop a sneakers\nfunction cop(uint snkrsId) public returns (uint) {\n  require(snkrsId >= 0 && snkrsId <= 15);\n\n  sneakers[snkrsId] = msg.sender;\n\n  return snkrsId;\n}\n\n// Recupera tutte le sneakers\nfunction getSneakers() public view returns (address[16] memory) {\n  return sneakers;\n}\n\n\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"snkrsId\",\"type\":\"uint256\"}],\"name\":\"cop\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSneakers\",\"outputs\":[{\"internalType\":\"address[16]\",\"name\":\"\",\"type\":\"address[16]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"sneakers\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Cop.sol\":\"Cop\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Cop.sol\":{\"keccak256\":\"0xddbfc5cf551a9d9837209d003db90e99a1b5ed92a42af12953ed89f54acd5517\",\"urls\":[\"bzz-raw://bbb1848cc958a29e1792beb3c929ca157a3253e02f93002d1a301f73e4886230\",\"dweb:/ipfs/QmbQ2zhV1dMX1VpHyJhngMbsFbatGoaMfEFxjjozLjXf9Z\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506101e7806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063898c0d46146100465780638fa6782a14610075578063bd2e065c146100b6575b600080fd5b6100636004803603602081101561005c57600080fd5b50356100ef565b60408051918252519081900360200190f35b61007d610130565b604051808261020080838360005b838110156100a357818101518382015260200161008b565b5050505090500191505060405180910390f35b6100d3600480360360208110156100cc57600080fd5b5035610176565b604080516001600160a01b039092168252519081900360200190f35b6000600f8211156100ff57600080fd5b336000836010811061010d57fe5b0180546001600160a01b0319166001600160a01b03929092169190911790555090565b610138610193565b604080516102008101918290529060009060109082845b81546001600160a01b0316815260019091019060200180831161014f575050505050905090565b6000816010811061018357fe5b01546001600160a01b0316905081565b604051806102000160405280601090602082028038833950919291505056fea265627a7a72315820d530b8438cf6e03dbe5e29966a5888e0133b793f026eec680c48385970d843d264736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063898c0d46146100465780638fa6782a14610075578063bd2e065c146100b6575b600080fd5b6100636004803603602081101561005c57600080fd5b50356100ef565b60408051918252519081900360200190f35b61007d610130565b604051808261020080838360005b838110156100a357818101518382015260200161008b565b5050505090500191505060405180910390f35b6100d3600480360360208110156100cc57600080fd5b5035610176565b604080516001600160a01b039092168252519081900360200190f35b6000600f8211156100ff57600080fd5b336000836010811061010d57fe5b0180546001600160a01b0319166001600160a01b03929092169190911790555090565b610138610193565b604080516102008101918290529060009060109082845b81546001600160a01b0316815260019091019060200180831161014f575050505050905090565b6000816010811061018357fe5b01546001600160a01b0316905081565b604051806102000160405280601090602082028038833950919291505056fea265627a7a72315820d530b8438cf6e03dbe5e29966a5888e0133b793f026eec680c48385970d843d264736f6c63430005100032",
+  "sourceMap": "26:332:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:332:0;;;;;;;",
+  "deployedSourceMap": "26:332:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:332:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;88:148;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;88:148:0;;:::i;:::-;;;;;;;;;;;;;;;;268:86;;;:::i;:::-;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;268:86:0;;;;;;;;;;;;;;;;41:27;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;41:27:0;;:::i;:::-;;;;-1:-1:-1;;;;;41:27:0;;;;;;;;;;;;;;88:148;131:4;176:2;165:7;:13;;141:38;;;;;;204:10;184:8;193:7;184:17;;;;;;;;:30;;-1:-1:-1;;;;;;184:30:0;-1:-1:-1;;;;;184:30:0;;;;;;;;;;-1:-1:-1;226:7:0;88:148::o;268:86::-;312:18;;:::i;:::-;336:15;;;;;;;;;;;-1:-1:-1;;336:15:0;;-1:-1:-1;336:15:0;;;;-1:-1:-1;;;;;336:15:0;;;;;;;;;;;;;;;;;;;;;;268:86;:::o;41:27::-;;;;;;;;;;;;-1:-1:-1;;;;;41:27:0;;-1:-1:-1;41:27:0;:::o;26:332::-;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;-1:-1;26:332:0;;;-1:-1:-1;;26:332:0:o",
+  "source": "pragma solidity >=0.5.0;\n\ncontract Cop{\n\naddress[16] public sneakers;\n// cop a sneakers\nfunction cop(uint snkrsId) public returns (uint) {\n  require(snkrsId >= 0 && snkrsId <= 15);\n\n  sneakers[snkrsId] = msg.sender;\n\n  return snkrsId;\n}\n\n// Recupera tutte le sneakers\nfunction getSneakers() public view returns (address[16] memory) {\n  return sneakers;\n}\n\n\n}",
   "sourcePath": "/Users/leonardo/Desktop/SneakerShop/contracts/Cop.sol",
   "ast": {
     "absolutePath": "project:/contracts/Cop.sol",
@@ -80,12 +80,12 @@
         "id": 1,
         "literals": [
           "solidity",
-          "^",
+          ">=",
           "0.5",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:0"
+        "src": "0:24:0"
       },
       {
         "baseContracts": [],
@@ -621,7 +621,7 @@
           }
         ],
         "scope": 44,
-        "src": "25:333:0"
+        "src": "26:332:0"
       }
     ],
     "src": "0:358:0"
@@ -640,14 +640,14 @@
         "attributes": {
           "literals": [
             "solidity",
-            "^",
+            ">=",
             "0.5",
             ".0"
           ]
         },
         "id": 1,
         "name": "PragmaDirective",
-        "src": "0:23:0"
+        "src": "0:24:0"
       },
       {
         "attributes": {
@@ -1232,7 +1232,7 @@
         ],
         "id": 43,
         "name": "ContractDefinition",
-        "src": "25:333:0"
+        "src": "26:332:0"
       }
     ],
     "id": 44,
@@ -1243,9 +1243,17 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x21bf53f8a2D1782Ce2668f71AFBa09bCE1f87139",
+      "transactionHash": "0x5dd94e0fdb8806fa352dfdc4a502b86a9bc59c0211aab55e9fd7c862915aba19"
+    }
+  },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-02-10T23:49:24.428Z",
+  "updatedAt": "2023-02-23T11:30:45.745Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
