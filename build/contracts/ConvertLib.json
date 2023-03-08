@@ -28,12 +28,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"conversionRate\",\"type\":\"uint256\"}],\"name\":\"convert\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"convertedAmount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ConvertLib.sol\":\"ConvertLib\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ConvertLib.sol\":{\"keccak256\":\"0x10e20a172b452fece152e14fa48ea45568608d7e4a6b44b976a4fbce01a438a4\",\"urls\":[\"bzz-raw://5a95a5b9dff8d7efa9155ff2572da99910800bd2b19c383316a6ecc6bc000282\",\"dweb:/ipfs/QmcGD9ynJr3fzYTdNoNygWzDBZEedeX3GUqmaEAi4Jrp6o\"]}},\"version\":1}",
-  "bytecode": "0x60a3610024600b82828239805160001a607314601757fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b605860048036036040811015604c57600080fd5b5080359060200135606a565b60408051918252519081900360200190f35b029056fea265627a7a723158205f22b0ee84837318942e010d0b1c8e07d21be21531627ea5556802eaaa72f7ad64736f6c63430005100032",
-  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b605860048036036040811015604c57600080fd5b5080359060200135606a565b60408051918252519081900360200190f35b029056fea265627a7a723158205f22b0ee84837318942e010d0b1c8e07d21be21531627ea5556802eaaa72f7ad64736f6c63430005100032",
-  "sourceMap": "34:155:0:-;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
-  "deployedSourceMap": "34:155:0:-;;;;;;;;;;;;;;;;;;;;;;;;55:132;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;55:132:0;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;160:23;;55:132::o",
-  "source": "pragma solidity >=0.4.22 <0.7.0;\n\nlibrary ConvertLib{\n\tfunction convert(uint amount,uint conversionRate) public pure returns (uint convertedAmount)\n\t{\n\t\treturn amount * conversionRate;\n\t}\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"conversionRate\",\"type\":\"uint256\"}],\"name\":\"convert\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"convertedAmount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ConvertLib.sol\":\"ConvertLib\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ConvertLib.sol\":{\"keccak256\":\"0x13aa58d5358c00b3578578087cd721574c172d807194f17e485bfe0905beb58d\",\"urls\":[\"bzz-raw://7dc040b8ba556cc1e1ecf87a11dac332f2ef3eb3da78ce4b7f28903db0cfd773\",\"dweb:/ipfs/Qmbom9Qzoo1aascXMD6CK1qmpoVJ3rVpeETveLfz7huXN7\"]}},\"version\":1}",
+  "bytecode": "0x60a3610024600b82828239805160001a607314601757fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b605860048036036040811015604c57600080fd5b5080359060200135606a565b60408051918252519081900360200190f35b029056fea265627a7a72315820ffef1ca140ab01f587f0564d2dffab8e4fe340046bec94abcdf871c039d4920a64736f6c63430005100032",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b605860048036036040811015604c57600080fd5b5080359060200135606a565b60408051918252519081900360200190f35b029056fea265627a7a72315820ffef1ca140ab01f587f0564d2dffab8e4fe340046bec94abcdf871c039d4920a64736f6c63430005100032",
+  "sourceMap": "27:155:0:-;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
+  "deployedSourceMap": "27:155:0:-;;;;;;;;;;;;;;;;;;;;;;;;48:132;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;48:132:0;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;153:23;;48:132::o",
+  "source": "pragma solidity >=0.4.22;\n\nlibrary ConvertLib{\n\tfunction convert(uint amount,uint conversionRate) public pure returns (uint convertedAmount)\n\t{\n\t\treturn amount * conversionRate;\n\t}\n}\n",
   "sourcePath": "/Users/leonardo/Desktop/SneakerShop/contracts/ConvertLib.sol",
   "ast": {
     "absolutePath": "project:/contracts/ConvertLib.sol",
@@ -51,13 +51,10 @@
           "solidity",
           ">=",
           "0.4",
-          ".22",
-          "<",
-          "0.7",
-          ".0"
+          ".22"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:32:0"
+        "src": "0:25:0"
       },
       {
         "baseContracts": [],
@@ -76,7 +73,7 @@
             "body": {
               "id": 14,
               "nodeType": "Block",
-              "src": "149:38:0",
+              "src": "142:38:0",
               "statements": [
                 {
                   "expression": {
@@ -97,7 +94,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "160:6:0",
+                      "src": "153:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -112,13 +109,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 5,
-                      "src": "169:14:0",
+                      "src": "162:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "160:23:0",
+                    "src": "153:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -127,7 +124,7 @@
                   "functionReturnParameters": 9,
                   "id": 13,
                   "nodeType": "Return",
-                  "src": "153:30:0"
+                  "src": "146:30:0"
                 }
               ]
             },
@@ -148,7 +145,7 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "72:11:0",
+                  "src": "65:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -159,7 +156,7 @@
                     "id": 2,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "72:4:0",
+                    "src": "65:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -174,7 +171,7 @@
                   "name": "conversionRate",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "84:19:0",
+                  "src": "77:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -185,7 +182,7 @@
                     "id": 4,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "84:4:0",
+                    "src": "77:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -195,7 +192,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "71:33:0"
+              "src": "64:33:0"
             },
             "returnParameters": {
               "id": 9,
@@ -207,7 +204,7 @@
                   "name": "convertedAmount",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "126:20:0",
+                  "src": "119:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -218,7 +215,7 @@
                     "id": 7,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "126:4:0",
+                    "src": "119:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -228,20 +225,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "125:22:0"
+              "src": "118:22:0"
             },
             "scope": 16,
-            "src": "55:132:0",
+            "src": "48:132:0",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 17,
-        "src": "34:155:0"
+        "src": "27:155:0"
       }
     ],
-    "src": "0:190:0"
+    "src": "0:183:0"
   },
   "legacyAST": {
     "attributes": {
@@ -259,15 +256,12 @@
             "solidity",
             ">=",
             "0.4",
-            ".22",
-            "<",
-            "0.7",
-            ".0"
+            ".22"
           ]
         },
         "id": 1,
         "name": "PragmaDirective",
-        "src": "0:32:0"
+        "src": "0:25:0"
       },
       {
         "attributes": {
@@ -324,12 +318,12 @@
                         },
                         "id": 2,
                         "name": "ElementaryTypeName",
-                        "src": "72:4:0"
+                        "src": "65:4:0"
                       }
                     ],
                     "id": 3,
                     "name": "VariableDeclaration",
-                    "src": "72:11:0"
+                    "src": "65:11:0"
                   },
                   {
                     "attributes": {
@@ -350,17 +344,17 @@
                         },
                         "id": 4,
                         "name": "ElementaryTypeName",
-                        "src": "84:4:0"
+                        "src": "77:4:0"
                       }
                     ],
                     "id": 5,
                     "name": "VariableDeclaration",
-                    "src": "84:19:0"
+                    "src": "77:19:0"
                   }
                 ],
                 "id": 6,
                 "name": "ParameterList",
-                "src": "71:33:0"
+                "src": "64:33:0"
               },
               {
                 "children": [
@@ -383,17 +377,17 @@
                         },
                         "id": 7,
                         "name": "ElementaryTypeName",
-                        "src": "126:4:0"
+                        "src": "119:4:0"
                       }
                     ],
                     "id": 8,
                     "name": "VariableDeclaration",
-                    "src": "126:20:0"
+                    "src": "119:20:0"
                   }
                 ],
                 "id": 9,
                 "name": "ParameterList",
-                "src": "125:22:0"
+                "src": "118:22:0"
               },
               {
                 "children": [
@@ -429,7 +423,7 @@
                             },
                             "id": 10,
                             "name": "Identifier",
-                            "src": "160:6:0"
+                            "src": "153:6:0"
                           },
                           {
                             "attributes": {
@@ -443,37 +437,37 @@
                             },
                             "id": 11,
                             "name": "Identifier",
-                            "src": "169:14:0"
+                            "src": "162:14:0"
                           }
                         ],
                         "id": 12,
                         "name": "BinaryOperation",
-                        "src": "160:23:0"
+                        "src": "153:23:0"
                       }
                     ],
                     "id": 13,
                     "name": "Return",
-                    "src": "153:30:0"
+                    "src": "146:30:0"
                   }
                 ],
                 "id": 14,
                 "name": "Block",
-                "src": "149:38:0"
+                "src": "142:38:0"
               }
             ],
             "id": 15,
             "name": "FunctionDefinition",
-            "src": "55:132:0"
+            "src": "48:132:0"
           }
         ],
         "id": 16,
         "name": "ContractDefinition",
-        "src": "34:155:0"
+        "src": "27:155:0"
       }
     ],
     "id": 17,
     "name": "SourceUnit",
-    "src": "0:190:0"
+    "src": "0:183:0"
   },
   "compiler": {
     "name": "solc",
@@ -483,12 +477,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7F9705e9c2FD8eD60AE1BC71769d96A927496d66",
-      "transactionHash": "0x75cea7040dac587215e6db0cd466dfc516a4821bebe78ed837eab9e236563daa"
+      "address": "0x60fb8999Bf5eF65b8A9e26071aAE1a6B1Ce482ab",
+      "transactionHash": "0x25b1ecf3270cff30456484fe03640decbdc6fca3d3feb362c85d962d5314c26f"
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-02-23T11:30:45.742Z",
+  "updatedAt": "2023-03-08T11:18:41.768Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

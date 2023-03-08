@@ -3,7 +3,7 @@
       "id": 0,
       "name": "Air Jordan 6 Retro Carmine",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/air-jordan6carmine.png",
       "release":"30/10/2020",
       "size":"40"
     },
@@ -11,7 +11,7 @@
       "id": 1,
       "name": "Air Jordan 1",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/1.png",
       "release":"30/10/2021",
       "size":"42"
     },
@@ -19,112 +19,112 @@
       "id": 2,
       "name": "Air Jordan 1 Travis Scott",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Travis1.png",
       "release":"20/12/2021",
       "size":"44"
     },
      {
       "id": 3,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 6 Retro Blue",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/6blue.png",
       "release":"30/10/2020",
       "size":"41"
     },
      {
       "id": 4,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 1 High Court Purple",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/AirPurple.png",
       "release":"30/10/2020",
       "size":"44"
     },
     {
       "id": 5,
-      "name": "Air Jordan 6 Blue",
+      "name": "Air Jordan 1 Retro High Dior",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Air Jordan 1 Retro High Dior.png",
       "release":"30/10/2020",
       "size":"42"
     },
      {
       "id": 6,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 1 Mid Ice Blue",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Air_Jordan_1MidIce.png",
       "release":"30/10/2020",
       "size":"40"
     },
      {
       "id": 7,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Jordan 4 Lightning 2021",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/airjordan42021.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"41"
     },
      {
       "id": 8,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 5 Retro Aqua",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Air Jordan 5 Retro Aqua.png",
       "release":"30/10/2020",
       "size":"40"
     },
      {
       "id": 9,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 4University  Blue",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Air Jordan 4 Retro University Blue.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"42"
     },
      {
       "id": 10,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 1 Mid Lakers",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Air Jordan 1 Mid Lakers.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"44"
     },
      {
       "id": 11,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Nike Dunk Low Panda",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/panda.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"38"
     },
      {
       "id": 12,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Nike Dunk Low UCLA",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Nike Dunk Low UCLA.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"44"
     },
      {
       "id": 13,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Nike Dunk Low University Blue",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/univblue.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"45"
     },
     {
       "id": 14,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Nike SB Dunk Low Travis Scott",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/sb-travis.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"36"
     },
      {
       "id": 15,
-      "name": "Air Jordan 6 Retro Carmine",
+      "name": "Air Jordan 1 Low Travis Scott",
       "brand":"NIKE",
-      "picture": "images/scottish-terrier.jpeg",
+      "picture": "images/Air Jordan 1 Low OG SP fragment design Travis Scott.png",
       "release":"30/10/2020",
-      "size":"40"
+      "size":"37"
     }
   ]
