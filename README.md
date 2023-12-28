@@ -17,7 +17,7 @@ npm install -g truffle
 1. Scarica il progetto SnakerShop, il quale si occupa anche dell'installazione delle dipendenze necessarie:
 
     ```bash
-    truffle unbox pet-shop
+    truffle unbox SneakerShop
     ```
 
 2. Avvia la console di sviluppo:
