@@ -1,7 +1,3 @@
-Certamente, possiamo essere più specifici. Ecco una versione più dettagliata:
-
----
-
 # SnakerShop Installation
 
 ## Prerequisiti
