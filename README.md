@@ -1,5 +1,3 @@
-Il documento fornito è una guida dettagliata per l'installazione di SnakerShop, un progetto che sembra essere un'applicazione basata su blockchain sviluppata con Truffle e Solidity. Di seguito, ho apportato alcune correzioni e suggerimenti per migliorare la chiarezza e la comprensione:
-
 # SnakerShop Installazione
 
 ## Prerequisiti
